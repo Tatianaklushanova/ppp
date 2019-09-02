@@ -31,7 +31,7 @@ object fmPrint: TfmPrint
     ParentFont = False
   end
   object Button1: TButton
-    Left = 280
+    Left = 440
     Top = 512
     Width = 121
     Height = 33

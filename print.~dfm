@@ -31,8 +31,8 @@ object fmPrint: TfmPrint
     ParentFont = False
   end
   object Button1: TButton
-    Left = 448
-    Top = 496
+    Left = 280
+    Top = 512
     Width = 121
     Height = 33
     Caption = #1055#1088#1086#1089#1084#1086#1090#1088
