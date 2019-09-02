@@ -1,0 +1,228 @@
+unit testR3;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ExtCtrls, StdCtrls, Common, Math, DateUtils;
+
+type
+  TfmTestR3 = class(TForm)
+    PB: TPaintBox;
+    Timer1: TTimer;
+    Label1: TLabel;
+    Button2: TButton;
+    Button1: TButton;
+    Memo1: TMemo;
+    Label2: TLabel;
+    procedure Button1Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure ShowP;
+    procedure Timer1Timer(Sender: TObject);
+    procedure PBPaint(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure FormMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+  private
+    { Private declarations }
+    T0,TClick: TDateTime;
+    tCountMax,tCount,RR,R,x,y,x0,y0: smallint;
+    is0,isClick,right: boolean;
+    Summa,delfi,fi: single;
+    procedure CalcOtkl;
+  public
+    { Public declarations }
+
+  end;
+
+var
+  fmTestR3: TfmTestR3;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfmTestR3.Button1Click(Sender: TObject);
+begin
+ BorderIcons:=[];
+ Memo1.Visible:=false; Label1.Visible:=true; Label1.Caption:='';
+ Button1.Visible:=false;
+ Button2.Visible:=false;
+ Label2.Visible:=false;
+ ShowP;
+ PB.Visible:=true;
+ Timer1.Enabled:=true; isClick:=false;
+ Timer1.Interval:=100;
+ tCountMax:=10; tCount:=0;
+end;
+
+procedure TfmTestR3.FormShow(Sender: TObject);
+begin
+   PB.Left:= (ClientWidth - PB.Width) div 2;
+   PB.Top:= (ClientHeight - PB.Height) div 2;
+   Memo1.Left:= (ClientWidth - Memo1.Width) div 2;
+   Memo1.Top:= (ClientHeight - Memo1.Height) div 2;
+   Label2.Left:= (ClientWidth - Label2.Width) div 2;
+   Label2.Top:= Memo1.Top- 160;
+   Button1.Left:= (ClientWidth - 480) div 2;      // ширина каждой кнопки 140+расстояние между ними 200
+   Button1.Top:= Memo1.Top+Memo1.Height+80 ;
+   Button2.Left:= Button1.Left+340;      // ширина каждой кнопки 140+расстояние между ними 200
+   Button2.Top:= Button1.Top;
+   Label1.Left:= PB.Left;
+   Label1.Top:= PB.Top+PB.Height+15;
+   
+  x0:=PB.Width div 2; y:=30; R:=7; RR:=PB.Height-60; fi:=Pi/3;
+  right:=true; delfi:=0.04; tCountMax:=30; tCount:=0;
+  Summa:=0;   RezTest:=0; Ball:=0;
+ with PB.Canvas do begin
+   Pen.Color:=clYellow;
+   Brush.Style:=bsSolid;
+   Brush.Color:=clYellow;
+   Pen.Mode:=pmXOR;
+ end;
+ Memo1.Visible:=true;
+ end;
+
+procedure TfmTestR3.ShowP;
+Begin
+ with PB.Canvas do begin
+   x:=Round(x0-RR*sin(fi)); y:=Round(y0+RR*cos(fi));
+   Pen.Color:=clYellow;
+   Brush.Style:=bsSolid;
+   Brush.Color:=clYellow;
+   Ellipse(x-R,y-r,x+r,y+r);
+ end;
+End;
+
+procedure TfmTestR3.CalcOtkl;
+var res: single;
+Begin
+  If isClick and is0 Then begin
+    If T0<TClick Then begin
+        res:=MilliSecondSpan(TClick,T0)/10;
+    end
+    Else begin
+        res:=-MilliSecondSpan(T0,TClick)/10;
+    end;
+    Label1.Caption:=Format('Отклонение: %4.1f сс',[res]);
+    Summa:=Summa+Abs(res);
+  end;
+End;
+
+procedure TfmTestR3.Timer1Timer(Sender: TObject);
+//var sgn: integer;
+var res: single;
+begin
+  ShowP; // скрыть предыдущий
+  if right then begin
+//    sgn:=1;
+    fi:=fi+delfi;
+    If Abs(fi)<delfi/2 Then begin
+      is0:=true; T0:=now;
+      If isClick Then begin
+{        res:=MilliSecondSpan(T0,TClick)/10;
+        showmessage(Format('res=%4.2f',[res]));}
+        CalcOtkl;
+      end;
+
+    end
+    Else
+    if fi>Pi/3 then begin
+      right:=not right; isClick:=false; is0:=false;
+      inc(tCount);
+      If (tcount=tCountMax) Then Timer1.Enabled:=false
+      Else If tCount>18 Then Timer1.Interval:=30
+      Else If tCount>6 Then Timer1.Interval:=60;
+    end;
+  end
+  Else begin
+//    sgn:=-1;
+    fi:=fi-delfi;
+    If Abs(fi)<delfi/2 Then begin
+      is0:=true; T0:=now;
+      If isClick Then begin
+{        res:=MilliSecondSpan(T0,TClick)/10;
+        showmessage(Format('res=%4.2f',[res]));}
+        CalcOtkl;
+      end;
+    end
+    Else
+    If fi<-Pi/3 then begin
+      right:=not right; isClick:=false; is0:=false;
+      inc(tCount);
+      If (tcount=tCountMax) Then Timer1.Enabled:=false
+      Else If tCount>tCountMax*3/5 Then Timer1.Interval:=30
+      Else If tCount>tCountMax/5 Then Timer1.Interval:=60;
+    end;
+  end;
+  If Timer1.Enabled Then ShowP
+  Else If (tCountMax=10) Then begin
+     RezTest:= RoundTo(Summa/tCountMax, -1);
+     Ball:=0;
+     application.MessageBox(PChar('Результат: '+ FloatToStr(RezTest)+
+     #10+#13+'Баллы: '+ IntToStr(Ball)),'Тренировка окончена',MB_ICONINFORMATION);
+     Memo1.Visible:=true; Label1.Visible:=false;
+     Button1.Visible:=true;
+     Button2.Visible:=true;
+     PB.Visible:=false;
+     Label2.Visible:=true;
+     BorderIcons:=[biSystemMenu];
+    end
+    Else begin
+      RezTest:= RoundTo(Summa/tCountMax, -1);
+      Ball:=0;
+      application.MessageBox(PChar('Результат: '+ FloatToStr(RezTest)+
+   #10+#13+'Баллы: '+ IntToStr(Ball)),'Тест окончен',MB_ICONINFORMATION);
+   Close;
+  end;
+
+end;
+
+procedure TfmTestR3.PBPaint(Sender: TObject);
+var PM: TPenMode;
+    bc: TColor;
+begin
+  With PB.Canvas do begin
+    Pen.Color:=clNavy;
+    PM:=Pen.Mode;
+    Pen.Mode:=pmCopy;
+    bc:=Brush.Color;
+    Brush.Color:=clMoneyGreen;
+    Rectangle(PB.ClientRect);
+    Pen.Width:=3;
+    MoveTo(20,y0+RR+20);
+    LineTo(PB.ClientWidth-20, y0+RR+20);
+    MoveTo(x0,y0+RR+20);
+    LineTo(x0, y0+RR);
+    bc:=Brush.Color;
+    Pen.Mode:=pmXOR;
+  end;
+
+
+end;
+
+procedure TfmTestR3.Button2Click(Sender: TObject);
+begin
+ BorderIcons:=[];
+ Button1.Visible:=false;
+ Button2.Visible:=false;
+ Memo1.Visible:=false;
+ Label1.Visible:=true;  Label1.Caption:='';
+ Label2.Visible:=false;
+ ShowP;
+ PB.Visible:=true;
+ Timer1.Enabled:=true; isClick:=false;
+ tCountMax:=30; tCount:=0;
+ Timer1.Interval:=100;
+end;
+
+procedure TfmTestR3.FormMouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+  If not isClick Then begin
+   IsClick:=true; TClick:=now; CalcOtkl;
+  end;
+
+end;
+
+end.

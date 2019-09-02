@@ -1,0 +1,154 @@
+[Closed Files]
+File_0=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\clients.pas',0,1,223,5,242,0,0
+File_1=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\cex.pas',0,1,1,1,1,0,1
+File_2=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\vvod.pas',0,1,37,1,1,0,0
+File_3=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\mainForm.pas',0,1,104,1,124,0,0
+File_4=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\config.pas',0,1,77,3,94,0,0
+File_5=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\sprav_clients.pas',0,1,41,1,1,0,0
+File_6=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testChulte.pas',0,1,253,12,13,0,0
+File_7=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testMemoryAudi.pas',0,1,230,13,236,1,0
+File_8=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testMemoryVision.pas',0,1,14,5,29,1,0
+File_9=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testEmotional.pas',0,1,218,48,234,0,0
+
+[Modules]
+Count=0
+EditWindowCount=0
+
+[C:\Users\Tatyana\Delphi BDE\Последний вариант\medicalTest.dpr]
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\Users\Tatyana\Delphi BDE\Последний вариант\DM.pas]
+FormState=0
+FormOnTop=0
+
+[Watches]
+Count=1
+Watch0='column.field.displaytext',256,0,18,1,0,'Watches'
+
+[WatchWindow]
+WatchColumnWidth=100
+WatchShowColumnHeaders=1
+Create=1
+Visible=0
+State=0
+Left=-45
+Top=476
+Width=426
+Height=157
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=410
+ClientHeight=123
+TBDockHeight=157
+LRDockWidth=426
+Dockable=1
+
+[Breakpoints]
+Count=0
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=-2
+Top=24
+Width=1024
+Height=122
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1008
+ClientHeight=84
+
+[ProjectManager]
+Create=1
+Visible=0
+State=0
+Left=369
+Top=372
+Width=446
+Height=313
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=430
+ClientHeight=279
+TBDockHeight=313
+LRDockWidth=446
+Dockable=1
+
+[Components]
+Left=240
+Top=237
+Width=191
+Height=243
+Create=1
+Visible=0
+State=0
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=175
+ClientHeight=209
+TBDockHeight=243
+LRDockWidth=191
+Dockable=1
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=200
+Top=124
+Width=156
+Height=84
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=18
+Top=175
+Width=337
+Height=487
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=321
+ClientHeight=453
+TBDockHeight=272
+LRDockWidth=196
+Dockable=0
+SplitPos=133
+ArrangeBy=Name
+SelectedItem=
+ExpandedItems=Anchors,Attributes,BorderIcons,DataSet,DataSource,FieldModes,Font,Font.Style,ListSource,ListSource.DataSet,Menu,Title,Title.Font,TitleFont,Value,VisibleButtons
+HiddenCategories=
+
+[ObjectTree]
+Create=1
+Visible=1
+State=0
+Left=-10
+Top=149
+Width=275
+Height=222
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=259
+ClientHeight=188
+TBDockHeight=272
+LRDockWidth=196
+Dockable=1
+
+[DockHosts]
+DockHostCount=0
+
