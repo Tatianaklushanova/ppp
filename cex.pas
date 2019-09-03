@@ -29,7 +29,7 @@ var
 implementation
 
 {$R *.dfm}
-
+// изменение
 procedure TfmCex.DBGrid1ColExit(Sender: TObject);
 begin
  if DBGrid1.SelectedField.FieldName = DBLookupComboBox1.DataField then
