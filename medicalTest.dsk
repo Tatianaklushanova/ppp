@@ -1,24 +1,28 @@
 [Closed Files]
-File_0=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\clients.pas',0,1,223,5,242,0,0
-File_1=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\cex.pas',0,1,1,1,1,0,1
-File_2=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\vvod.pas',0,1,37,1,1,0,0
-File_3=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\mainForm.pas',0,1,104,1,124,0,0
-File_4=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\config.pas',0,1,77,3,94,0,0
-File_5=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\sprav_clients.pas',0,1,41,1,1,0,0
-File_6=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testChulte.pas',0,1,253,12,13,0,0
-File_7=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testMemoryAudi.pas',0,1,230,13,236,1,0
-File_8=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testMemoryVision.pas',0,1,14,5,29,1,0
-File_9=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testEmotional.pas',0,1,218,48,234,0,0
+File_0=SourceModule,'C:\Users\Tatyana\Delphi BDE\Проба\print.pas',0,1,1,1,1,0,0
+File_1=SourceModule,'C:\Users\Tatyana\Delphi BDE\Проба\cex.pas',0,1,18,1,1,0,0
+File_2=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\clients.pas',0,1,223,5,242,0,0
+File_3=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\cex.pas',0,1,1,1,1,0,1
+File_4=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\vvod.pas',0,1,37,1,1,0,0
+File_5=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\mainForm.pas',0,1,104,1,124,0,0
+File_6=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\config.pas',0,1,77,3,94,0,0
+File_7=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\sprav_clients.pas',0,1,41,1,1,0,0
+File_8=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testChulte.pas',0,1,253,12,13,0,0
+File_9=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testMemoryAudi.pas',0,1,230,13,236,1,0
 
 [Modules]
 Count=0
 EditWindowCount=0
 
-[C:\Users\Tatyana\Delphi BDE\Последний вариант\medicalTest.dpr]
+[C:\Users\Tatyana\Delphi BDE\Проба\medicalTest.dpr]
 FormState=0
 FormOnTop=0
 
 [C:\Program Files\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[C:\Users\Tatyana\Delphi BDE\Проба\DM.pas]
 FormState=0
 FormOnTop=0
 
@@ -125,7 +129,7 @@ LRDockWidth=196
 Dockable=0
 SplitPos=133
 ArrangeBy=Name
-SelectedItem=
+SelectedItem=Name
 ExpandedItems=Anchors,Attributes,BorderIcons,DataSet,DataSource,FieldModes,Font,Font.Style,ListSource,ListSource.DataSet,Menu,Title,Title.Font,TitleFont,Value,VisibleButtons
 HiddenCategories=
 

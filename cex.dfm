@@ -23,7 +23,7 @@ object fmCex: TfmCex
   TextHeight = 16
   object Label1: TLabel
     Left = 352
-    Top = 48
+    Top = 88
     Width = 216
     Height = 24
     Caption = #1057#1087#1088#1072#1074#1086#1095#1085#1080#1082' '#1094#1077#1093#1086#1074
