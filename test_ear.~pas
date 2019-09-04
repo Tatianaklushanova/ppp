@@ -101,8 +101,6 @@ begin
 end;
 
 procedure TfmTest_Ear.Timer3Timer(Sender: TObject);
-var //Res: single;
-    Stri: string;
 begin
   Timer3.Enabled:=false; isWait:=false;
   if (not isClick) Then Inc(errors);

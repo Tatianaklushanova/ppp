@@ -22,10 +22,6 @@ FormOnTop=0
 FormState=0
 FormOnTop=0
 
-[C:\Users\Tatyana\Delphi BDE\Последний вариант\DM.pas]
-FormState=0
-FormOnTop=0
-
 [Watches]
 Count=1
 Watch0='column.field.displaytext',256,0,18,1,0,'Watches'
