@@ -31,11 +31,7 @@ object fmTest_Ear: TfmTest_Ear
     Height = 40
     Caption = #1058#1077#1089#1090' '#1085#1072' '#1072#1082#1091#1089#1090#1080#1082#1086'-'#1084#1086#1090#1086#1088#1085#1091#1102' '#1088#1077#1072#1082#1094#1080#1102
     Font.Charset = DEFAULT_CHARSET
-<<<<<<< HEAD
-    Font.Color = clScrollBar
-=======
-    Font.Color = clHotLight
->>>>>>> master
+    Font.Color = clWindowText
     Font.Height = -33
     Font.Name = 'Bookman Old Style'
     Font.Style = [fsBold]

@@ -54,7 +54,11 @@ LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
+<<<<<<< HEAD
 BottomPanelData=00000400010000000B0000004D6573736167655669657700000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
+=======
+BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
+>>>>>>> master
 
 [View0]
 Module=D:\Кравченко\Delphi_Projects\medicalTest\git_4\ppp\medicalTest.dpr
@@ -173,7 +177,11 @@ LRDockWidth=196
 Dockable=0
 SplitPos=133
 ArrangeBy=Name
+<<<<<<< HEAD
 SelectedItem=Font.Color
+=======
+SelectedItem=Font.Size
+>>>>>>> master
 ExpandedItems=Anchors,Attributes,BorderIcons,DataSet,DataSource,FieldModes,Font,Font.Style,ListSource,ListSource.DataSet,Menu,Title,Title.Font,TitleFont,Value,VisibleButtons
 HiddenCategories=
 
@@ -213,6 +221,7 @@ Dockable=1
 Create=1
 Visible=0
 State=0
+<<<<<<< HEAD
 Left=12
 Top=0
 Width=666
@@ -220,6 +229,15 @@ Height=85
 MaxLeft=-1
 MaxTop=-1
 ClientWidth=666
+=======
+Left=-175
+Top=-540
+Width=443
+Height=85
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=443
+>>>>>>> master
 ClientHeight=85
 TBDockHeight=85
 LRDockWidth=443
