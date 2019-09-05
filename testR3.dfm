@@ -48,6 +48,19 @@ object fmTestR3: TfmTestR3
     OnMouseDown = FormMouseDown
     OnPaint = PBPaint
   end
+  object Label3: TLabel
+    Left = 16
+    Top = 112
+    Width = 355
+    Height = 24
+    Caption = #1069#1090#1072' '#1089#1090#1088#1086#1082#1072' '#1076#1086#1073#1072#1074#1083#1077#1085#1072' '#1074' '#1084#1072#1089#1090#1077#1088#1077
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clFuchsia
+    Font.Height = -20
+    Font.Name = 'Bookman Old Style'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
   object Button2: TButton
     Left = 552
     Top = 608
