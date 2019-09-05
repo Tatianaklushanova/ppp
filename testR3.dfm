@@ -1,6 +1,6 @@
 object fmTestR3: TfmTestR3
-  Left = 151
-  Top = 186
+  Left = 263
+  Top = 339
   Width = 920
   Height = 716
   Caption = #1056#1077#1072#1082#1094#1080#1103' '#1085#1072' '#1076#1074#1080#1078#1091#1097#1080#1081#1089#1103' '#1086#1073#1098#1077#1082#1090
@@ -47,6 +47,19 @@ object fmTestR3: TfmTestR3
     Visible = False
     OnMouseDown = FormMouseDown
     OnPaint = PBPaint
+  end
+  object Label3: TLabel
+    Left = 152
+    Top = 56
+    Width = 363
+    Height = 24
+    Caption = #1069#1090#1072' '#1089#1090#1088#1086#1082#1072' '#1076#1086#1073#1072#1074#1083#1077#1085#1072' '#1074' VetkaLoc'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clTeal
+    Font.Height = -20
+    Font.Name = 'Bookman Old Style'
+    Font.Style = [fsBold]
+    ParentFont = False
   end
   object Button2: TButton
     Left = 552

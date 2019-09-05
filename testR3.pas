@@ -16,6 +16,7 @@ type
     Memo1: TMemo;
     Label2: TLabel;
     Button3: TButton;
+    Label3: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure ShowP;
