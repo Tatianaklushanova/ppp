@@ -1,6 +1,6 @@
 object fmTest_Ear: TfmTest_Ear
-  Left = 224
-  Top = 133
+  Left = 138
+  Top = 103
   Width = 838
   Height = 545
   Caption = #1058#1077#1089#1090' '#1085#1072' '#1072#1082#1091#1089#1090#1080#1082#1086'-'#1084#1086#1090#1086#1088#1085#1091#1102' '#1088#1077#1072#1082#1094#1080#1102
@@ -31,7 +31,7 @@ object fmTest_Ear: TfmTest_Ear
     Height = 40
     Caption = #1058#1077#1089#1090' '#1085#1072' '#1072#1082#1091#1089#1090#1080#1082#1086'-'#1084#1086#1090#1086#1088#1085#1091#1102' '#1088#1077#1072#1082#1094#1080#1102
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clHotLight
+    Font.Color = clGreen
     Font.Height = -33
     Font.Name = 'Bookman Old Style'
     Font.Style = [fsBold]
