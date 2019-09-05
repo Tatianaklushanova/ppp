@@ -1,34 +1,20 @@
 [Closed Files]
-File_0=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\clients.pas',0,1,223,5,242,0,0
-File_1=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\cex.pas',0,1,1,1,1,0,1
-File_2=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\vvod.pas',0,1,37,1,1,0,0
-File_3=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\mainForm.pas',0,1,104,1,124,0,0
-File_4=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\config.pas',0,1,77,3,94,0,0
-File_5=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\sprav_clients.pas',0,1,41,1,1,0,0
-File_6=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testChulte.pas',0,1,253,12,13,0,0
-File_7=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testMemoryAudi.pas',0,1,230,13,236,1,0
-File_8=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testMemoryVision.pas',0,1,14,5,29,1,0
-File_9=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testEmotional.pas',0,1,218,48,234,0,0
+File_0=SourceModule,'C:\Users\Tatyana\Delphi BDE\Проба\print.pas',0,1,1,1,1,0,0
+File_1=SourceModule,'C:\Users\Tatyana\Delphi BDE\Проба\cex.pas',0,1,18,1,1,0,0
+File_2=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\clients.pas',0,1,223,5,242,0,0
+File_3=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\cex.pas',0,1,1,1,1,0,1
+File_4=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\vvod.pas',0,1,37,1,1,0,0
+File_5=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\mainForm.pas',0,1,104,1,124,0,0
+File_6=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\config.pas',0,1,77,3,94,0,0
+File_7=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\sprav_clients.pas',0,1,41,1,1,0,0
+File_8=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testChulte.pas',0,1,253,12,13,0,0
+File_9=SourceModule,'C:\Users\Tatyana\Delphi BDE\Последний вариант\testMemoryAudi.pas',0,1,230,13,236,1,0
 
 [Modules]
-Module0=C:\Users\Tatyana\Delphi BDE\Проба\cex.pas
-Module1=C:\Users\Tatyana\Delphi BDE\Проба\print.pas
-Module2=C:\Users\Tatyana\Delphi BDE\Проба\medicalTest.dpr
-Count=3
-EditWindowCount=1
-
-[C:\Users\Tatyana\Delphi BDE\Проба\cex.pas]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
-
-[C:\Users\Tatyana\Delphi BDE\Проба\print.pas]
-ModuleType=SourceModule
-FormState=0
-FormOnTop=0
+Count=0
+EditWindowCount=0
 
 [C:\Users\Tatyana\Delphi BDE\Проба\medicalTest.dpr]
-ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
@@ -39,54 +25,6 @@ FormOnTop=0
 [C:\Users\Tatyana\Delphi BDE\Проба\DM.pas]
 FormState=0
 FormOnTop=0
-
-[EditWindow0]
-ViewCount=3
-CurrentView=2
-View0=0
-View1=1
-View2=2
-CodeExplorer=CodeExplorer@EditWindow0
-MessageView=MessageView@EditWindow0
-Create=1
-Visible=1
-State=0
-Left=365
-Top=170
-Width=868
-Height=606
-MaxLeft=-1
-MaxTop=-1
-ClientWidth=852
-ClientHeight=568
-LeftPanelSize=140
-LeftPanelClients=CodeExplorer@EditWindow0
-LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000000C000000436F64654578706C6F726572FFFFFFFF
-RightPanelSize=0
-BottomPanelSize=0
-BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D657373616765566965770000000000000000000000000000000000FFFFFFFF
-
-[View0]
-Module=C:\Users\Tatyana\Delphi BDE\Проба\medicalTest.dpr
-CursorX=1
-CursorY=1
-TopLine=1
-LeftCol=1
-
-[View1]
-Module=C:\Users\Tatyana\Delphi BDE\Проба\print.pas
-CursorX=1
-CursorY=1
-TopLine=1
-LeftCol=1
-
-[View2]
-Module=C:\Users\Tatyana\Delphi BDE\Проба\cex.pas
-CursorX=1
-CursorY=1
-TopLine=1
-LeftCol=1
 
 [Watches]
 Count=1
@@ -191,7 +129,7 @@ LRDockWidth=196
 Dockable=0
 SplitPos=133
 ArrangeBy=Name
-SelectedItem=
+SelectedItem=Name
 ExpandedItems=Anchors,Attributes,BorderIcons,DataSet,DataSource,FieldModes,Font,Font.Style,ListSource,ListSource.DataSet,Menu,Title,Title.Font,TitleFont,Value,VisibleButtons
 HiddenCategories=
 
@@ -209,38 +147,6 @@ ClientWidth=259
 ClientHeight=188
 TBDockHeight=272
 LRDockWidth=196
-Dockable=1
-
-[CodeExplorer@EditWindow0]
-Create=1
-Visible=1
-State=0
-Left=0
-Top=12
-Width=140
-Height=556
-MaxLeft=-1
-MaxTop=-1
-ClientWidth=140
-ClientHeight=556
-TBDockHeight=305
-LRDockWidth=140
-Dockable=1
-
-[MessageView@EditWindow0]
-Create=1
-Visible=0
-State=0
-Left=-175
-Top=-661
-Width=443
-Height=85
-MaxLeft=-1
-MaxTop=-1
-ClientWidth=443
-ClientHeight=85
-TBDockHeight=85
-LRDockWidth=443
 Dockable=1
 
 [DockHosts]

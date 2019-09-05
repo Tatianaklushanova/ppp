@@ -25,7 +25,7 @@ object fmTestR3: TfmTestR3
     Height = 24
     Caption = #1056#1077#1072#1082#1094#1080#1103' '#1085#1072' '#1076#1074#1080#1078#1091#1097#1080#1081#1089#1103' '#1086#1073#1098#1077#1082#1090
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
+    Font.Color = clNavy
     Font.Height = -20
     Font.Name = 'Bookman Old Style'
     Font.Style = [fsBold]

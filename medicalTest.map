@@ -414,13 +414,13 @@ Detailed map of segments
 
 Bound resource files
 
-c:\program files\borland\delphi7\Lib\Buttons.res
-c:\program files\borland\delphi7\Lib\ExtDlgs.res
-c:\program files\borland\delphi7\Lib\Controls.res
-c:\program files\borland\delphi7\Lib\DBLogDlg.dfm
-c:\program files\borland\delphi7\Lib\DBPWDlg.dfm
-c:\program files\borland\delphi7\Lib\DBCtrls.res
-c:\program files\borland\delphi7\Lib\DBGrids.res
+d:\program files (x86)\borland\delphi7\Lib\Buttons.res
+d:\program files (x86)\borland\delphi7\Lib\ExtDlgs.res
+d:\program files (x86)\borland\delphi7\Lib\Controls.res
+d:\program files (x86)\borland\delphi7\Lib\DBLogDlg.dfm
+d:\program files (x86)\borland\delphi7\Lib\DBPWDlg.dfm
+d:\program files (x86)\borland\delphi7\Lib\DBCtrls.res
+d:\program files (x86)\borland\delphi7\Lib\DBGrids.res
 DM.dfm
 newcompany.dfm
 newprof.dfm
@@ -428,7 +428,7 @@ newcex.dfm
 testMemoryVision.dfm
 testMemoryVisionTren.dfm
 testMemoryVisionNach.dfm
-c:\program files\borland\delphi7\Lib\MPlayer.res
+d:\program files (x86)\borland\delphi7\Lib\MPlayer.res
 testMemoryAudi.dfm
 testMemoryAudiTren.dfm
 testMemoryAudiNach.dfm
@@ -436,7 +436,7 @@ testChulte.dfm
 testChulteNach.dfm
 testEmotional.dfm
 testEmotionalNach.dfm
-c:\program files\borland\delphi7\Lib\SPIN.RES
+d:\program files (x86)\borland\delphi7\Lib\SPIN.RES
 config.dfm
 test_ZMRp.dfm
 test_ZMRd.dfm
